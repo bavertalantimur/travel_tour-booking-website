@@ -1,0 +1,26 @@
+#header .header{
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 99;
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.header__navigation-item{
+    display: inline-block;
+    padding-left: 50px;
+}
+.header__btn{
+  padding-right: 5%;
+}
+.header__btn a{
+    
+    text-align: center;
+padding: 10px;
+   background-color:var(--color-background);
+   border-radius: 5px;
+    
+}

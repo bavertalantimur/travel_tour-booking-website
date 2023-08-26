@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+</head>
+<body>
+    <!--
+        1- header position absolute olacak
+        2- z-index'i main'den büyük olacak ki üstüne gelsin
+        3- main header altında olacak :) iç içe yapı nau nau
+        4- isimlendirmelerde bem kullan header'da örnek yapıyorum
+        hepsine class vermeye gerek var mı -> genellikle evet sadece bazen çok alt kısımlarda span, small,bold gibi tagler oluyor onlara kullanılmayabilir.
+        Tamam sen header & maini şablon olarak yap sonra tekrar bağlanırım
+        bu resim bu kdar fazlamıydı 
+    -->
+  <!--Header-->
+  <section id="header"> <!--Bunu header yap-->
+    <div class="header">
+        <div class="header__logo">
+            <h3 class="header__logo-text">Travel</h3>
+            <img src="img/Arrow 05.png">
+        </div>
+        <div class="navbar">
+            <ul class="header__navigation">
+                <li class="header__navigation-item"> <a  class="header__navigation link" href="">Home</a> </li>
+                <li class="header__navigation-item"> <a  class="header__navigation link" href="">About</a> </li>
+                <li class="header__navigation-item"> <a  class="header__navigation link" href="">Services</a> </li>
+                <li class="header__navigation-item"> <a  class="header__navigation link" href="">Upcomming Packages</a> </li>
+            </ul>
+        </div>
+        <div class="header__btn">
+            <a  href="" >Get in Touch </a>
+        </div>
+        
+    </div>
+  </section>
+  <!--header end-->
+
+  <!--Tamam knka header ve main arasında bir ilişki kalmadı, sectionlar birbirinden bağımsız ilerlesin :))
+tamadmrııı kolay gelsin bb-->
+  <section id="main"  >
+    <div class="main">
+        <!--Tam sığması için background-size:contain; yaptık-->
+        <div class="container">
+            
+        </div>
+    </div>
+  </section>
+ 
+ 
+</body>
