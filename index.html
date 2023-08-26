@@ -13,21 +13,14 @@
     
 </head>
 <body>
-    <!--
-        1- header position absolute olacak
-        2- z-index'i main'den büyük olacak ki üstüne gelsin
-        3- main header altında olacak :) iç içe yapı nau nau
-        4- isimlendirmelerde bem kullan header'da örnek yapıyorum
-        hepsine class vermeye gerek var mı -> genellikle evet sadece bazen çok alt kısımlarda span, small,bold gibi tagler oluyor onlara kullanılmayabilir.
-        Tamam sen header & maini şablon olarak yap sonra tekrar bağlanırım
-        bu resim bu kdar fazlamıydı 
-    -->
+   
+    
   <!--Header-->
-  <section id="header"> <!--Bunu header yap-->
+  <section id="header"> 
     <div class="header">
         <div class="header__logo">
             <h3 class="header__logo-text">Travel</h3>
-            <img src="img/Arrow 05.png">
+            <img src="img/logo.svg">
         </div>
         <div class="navbar">
             <ul class="header__navigation">
@@ -45,16 +38,86 @@
   </section>
   <!--header end-->
 
-  <!--Tamam knka header ve main arasında bir ilişki kalmadı, sectionlar birbirinden bağımsız ilerlesin :))
-tamadmrııı kolay gelsin bb-->
+  
   <section id="main"  >
     <div class="main">
-        <!--Tam sığması için background-size:contain; yaptık-->
-        <div class="container">
-            
+        <div class="main_title">
+            <img class="title_logo" src="img/title_logo.svg">
+            <h2 class="main_title_item">No matter where <br> you're going to ,we'll<br> take you there</h2>
         </div>
+        <div class="main_menu">
+            <div class="main_menu_container">
+                <a class="main_menu_item" href="">Where to?</a>
+                
+            </div>
+           
+            <div class="main_menu_container">
+                <a  class="main_menu_item" href="">Travel Type</a>
+                <img class="main_menu_icon" src="img/Vector.svg">
+            </div>
+            <div class="main_menu_container">
+                <a class="main_menu_item" href="">Duration </a>
+                <img class="main_menu_icon" src="img/Vector.svg">
+            </div>
+            <div class="main_menu_container">
+                <a class="main_menu_btn" href="">Submit </a>
+            </div>
+
+        </div>
+        <div class="person_card">
+            <div class="person_card_img">
+                <div class="person_card_item">
+                    <img src="img/Ellipse 31.svg">
+                </div>
+                <div class="person_card_item">
+                    <img src="img/Ellipse 32.svg">
+                </div>
+                <div class="person_card_item">
+                    <img src="img/Ellipse 33.svg">
+                </div>
+                <div class="person_card_item">
+                    <img src="img/Ellipse 34.svg">
+                </div>
+                <div class="person_card_item">
+                    <img src="img/Ellipse 35.svg">
+                </div>
+                <div class="person_card_item">
+                    <img src="img/Ellipse 36.svg">
+                </div>
+                <div class="person_card_item-1">
+                    <img class="person_card_img-2" src="img/Ellipse 37.svg">
+                </div>
+            </div>
+            
+            <div class="person_card_text">
+                <span class="person_card_text_item">2,500 people booked Tommorowland Event in last 24 hours</span>
+            </div>
+        </div>
+
     </div>
   </section>
+<!-- Supporter-start --> 
+  <section id="supporter">
+    <div class="supporter">
+        <div class="supporter_content">
+            <img  class="supporter_content_img" src="img/image 909.jpg">
+        </div>
+        <div class="supporter_content">
+            <img  class="supporter_content_img" src="img/image 909.jpg">
+        </div>
+        <div class="supporter_content">
+            <img  class="sponsor_content_img" src="img/image 909.jpg">
+        </div>
+        <div class="supporter_content">
+            <img  class="supporter_content_img" src="img/image 909.jpg">
+        </div>
+        <div class="supporter_content">
+            <img  class="supporter_content_img" src="img/image 909.jpg">
+        </div>
+
+       </div>
+  </section>
+  <!-- Supporter-end --> 
  
  
 </body>
