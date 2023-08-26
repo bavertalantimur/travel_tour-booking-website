@@ -3,6 +3,7 @@
 
 @import url("./variables.css");
 
+
 h3{
     color: var(--color-primary);
 text-align: center;
@@ -14,6 +15,15 @@ line-height: normal;
 text-transform: capitalize;
 }
 h2{
+    color: var(--color-primary);
+    font-family: Poppins;
+    font-size: 58.506px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 67.908px
+
+}
+h4{
     color: var(--color-title);
     font-family: 'Volkhov', serif;
     font-size: 50px;
@@ -21,6 +31,8 @@ h2{
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
+    font-size: 58.506px;
+
 }
 p{
 color: var(--color-black);
@@ -38,3 +50,7 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
+span{
+    color: var(--color-primary);
+}
+
