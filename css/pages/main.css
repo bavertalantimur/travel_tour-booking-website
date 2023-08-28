@@ -63,7 +63,7 @@ padding: 16px 57.561px 15.416px 57px;
 justify-content: center;
 align-items: center;
 border-radius: 10px;
-background: #DF6951;
+background: var(--color-background);
 box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
 
 }
@@ -84,7 +84,7 @@ box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
 
 .main_person-card div:nth-last-of-type(1)::before{
     content: "+";
-    color:white;
+    color:var(--color-primary);
     position: absolute;
     left: 89.5%;
     top: 44%;
@@ -106,8 +106,8 @@ padding-top: 3%;
     left: 6%;
     bottom:0;
     border-radius: 160px 160px 0 0;
-border: 1px dashed #fff;
-outline:  1px dashed #fff ;
+border: 1px dashed var(--color-primary);
+outline:  1px dashed var(--color-primary) ;
 outline-offset: 80px;
 
 }

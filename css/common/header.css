@@ -1,6 +1,6 @@
-#header .header{
+#header .header {
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     z-index: 2;
     background-color: transparent;
@@ -9,72 +9,54 @@
     justify-content: space-around;
     padding-top: 50px;
 }
-.header__navigation{
+.header__logo {
+    padding-left: 10%;
+}
+.header__navigation {
     position: relative;
 }
-.header__navigation-item{
+.header__navigation-item {
     display: inline-block;
     padding-left: 50px;
-   
-   
 }
-.header__navigation-link{
-   position: relative;
-   
+.header__navigation-link {
+    position: relative;
 }
-.header__navigation-link:hover::before{
+.header__navigation-link:hover::before {
     content: "";
     display: block;
     width: 70%;
-    border-bottom:3px solid #DF6951; 
+    border-bottom: 3px solid var(--color-background);
     position: absolute;
     left: 10px;
     bottom: -8px;
-
     border-radius: 34px;
-
 }
-.header__navigation-link:nth-of-type(3):hover::before{
-    display: none;
-}
-
-
-.header__navigation-item:nth-of-type(3) .header__navigation-link:hover + .header_navigation-link-item{
-    visibility: visible;
-    
-}
-
-.header_navigation-link-item{
+.header_navigation-link-item {
     visibility: hidden;
     position: absolute;
     left: 42%;
-    background-image: url(../../img/Union.svg) ;
+    background-image: url(../../img/Union.svg);
     padding: 50px 90px 60px 10px;
     background-size: 100%;
-   
+
     background-repeat: no-repeat;
     transition: 0.5s all ease-in;
-     
 }
 .header_navigation-link-item li {
     padding-top: 5px;
     padding-bottom: 20px;
     padding-left: 10px;
-  
 }
-
-
-.header__logo{
-    padding-left: 10%;
+.header__navigation-item:nth-of-type(3) .header__navigation-link:hover+.header_navigation-link-item {
+    visibility: visible;
 }
-.header__btn{
-  padding-right: 5%;
+.header__btn {
+    padding-right: 5%;
 }
-.header__btn a{
-    
+.header__btn a {
     text-align: center;
-   padding: 10px;
-   background-color:var(--color-background);
-   border-radius: 5px;
-    
+    padding: 10px;
+    background-color: var(--color-background);
+    border-radius: 5px;
 }
