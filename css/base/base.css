@@ -2,6 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 @import url("./variables.css");
+<<<<<<< Updated upstream
+=======
+@font-face {
+    font-family: 'Circular';
+    src: url('../../fonts/circular-std-medium-500.ttf') ;
+    font-weight: 500;
+    font-style: normal;
+}
+>>>>>>> Stashed changes
 
 
 h3{
@@ -45,6 +54,7 @@ line-height: 26px;
 a{ 
     text-decoration: none;
     color: var(--color-primary);
+    font-family: "Circular";
 font-size: 17px;
 font-style: normal;
 font-weight: 500;

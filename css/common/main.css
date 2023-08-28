@@ -1,18 +1,19 @@
+
+/*main section*/
 #main{
     width: 100%;
-    height: 100vh;
+    height: 140vh;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.33) 0%, rgba(0, 0, 0, 0.33) 100%), url(../../img/background.png), lightgray 50% ;
     background-size:cover;
     background-repeat: no-repeat;
-    
+    position: relative;
 }
 .main{
     display: flex;
     flex-direction: column;
-    
     text-align: justify;
     padding-left: 16%;
-    padding-top: 14%;
+    padding-top: 22%;
 }
 .main_title{
     padding-bottom: 2%;
@@ -20,18 +21,14 @@
 .main_menu{
     display: flex;
     border-radius: 5.224px;
-background: rgba(243, 243, 243, 0.60);
-backdrop-filter: blur(17.760618209838867px);
-width: 844px;
-height: 102px;
-justify-content: center;
-align-items: center;
-gap: 14%;
+    background: rgba(243, 243, 243, 0.60);
+    backdrop-filter: blur(17.760618209838867px);
+    width: 844px;
+    height: 102px;
+    justify-content: center;
+    align-items: center;
+    gap: 12%;
 
-
-}
-.main_menu_icon{
-    padding-left: 5px;
 }
 .main_menu::before{
     position: absolute;
@@ -41,9 +38,10 @@ gap: 14%;
     width: 3px;
     height: 48px;
     border-radius: 25px;
-background: #D0D0D0;
+    background: #D0D0D0;
     
 }
+
 .main_menu::after{
     position: absolute;
     right: 52%;
@@ -55,6 +53,10 @@ background: #D0D0D0;
     border-radius: 25px;
 background: #D0D0D0;
 }
+.main_menu_icon{
+    padding-left: 5px;
+}
+
 .main_menu_btn{
     display: inline-flex;
 padding: 16px 57.561px 15.416px 57px;
@@ -65,11 +67,7 @@ background: #DF6951;
 box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
 
 }
-
-.person_card_img{
-    display: flex;
-}
-.person_card{
+.main_person{
   
     padding-top: 0.5%;
     display: flex;
@@ -77,13 +75,55 @@ box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
     padding-top: 3%;
        
 }
-.person_card_text{
-    padding-top: 5px;
+
+.main_person-card{
+    display: flex;
+    padding-left: 1.5%;
+    position: relative;
 }
-.supporter{
+
+.main_person-card div:nth-last-of-type(1)::before{
+    content: "+";
+    color:white;
+    position: absolute;
+    left: 89.5%;
+    top: 44%;
+    transform: translate(-50%, -50%);
+}
+.main_person-card-item{
+    margin-left:-15px;
+}
+
+.main_person-card-text{
+    padding-top: 10px;
+}
+.scrol{
+    width: 160px;
+    height: 80px;
+text-align: center;
+padding-top: 3%;
+    position: absolute;
+    left: 6%;
+    bottom:0;
+    border-radius: 160px 160px 0 0;
+border: 1px dashed #fff;
+outline:  1px dashed #fff ;
+outline-offset: 80px;
+
+}
+
+
+
+
+
+
+/*end main section*/
+/*references section*/
+.references{
+    z-index: 5;
     display: flex;
 width: 100%;
-height: 25VH;
+height: 25vh;
     background: #F7F7F7;
 padding: 0px 171.15px 0px 171px;
 justify-content: center;
@@ -92,22 +132,9 @@ gap: 12%;
 padding-top: 5%;
 flex-shrink: 0;
 }
-.supporter img{
+.references_content-img{
     opacity: 0.44;
 
 }
-.person_card_img{
-    position: relative;
-}
-.person_card_item-1::before{
-    content: "+";
-    color:white;
-    position: absolute;
-    left: 92.8%;
-    top: 42%;
-    transform: translate(-50%, -50%);
-}
-
-
 
 

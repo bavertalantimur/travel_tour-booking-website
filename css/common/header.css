@@ -9,10 +9,61 @@
     justify-content: space-around;
     padding-top: 50px;
 }
+.header__navigation{
+    position: relative;
+}
 .header__navigation-item{
     display: inline-block;
     padding-left: 50px;
+   
+   
 }
+.header__navigation-link{
+   position: relative;
+   
+}
+.header__navigation-link:hover::before{
+    content: "";
+    display: block;
+    width: 70%;
+    border-bottom:3px solid #DF6951; 
+    position: absolute;
+    left: 10px;
+    bottom: -8px;
+
+    border-radius: 34px;
+
+}
+.header__navigation-link:nth-of-type(3):hover::before{
+    display: none;
+}
+
+
+.header__navigation-item:nth-of-type(3) .header__navigation-link:hover + .header_navigation-link-item{
+    visibility: visible;
+    
+}
+
+.header_navigation-link-item{
+    visibility: hidden;
+    position: absolute;
+    left: 42%;
+    background-image: url(../../img/Union.svg) ;
+    padding: 50px 90px 60px 10px;
+    background-size: 100%;
+   
+    background-repeat: no-repeat;
+    transition: 0.5s all ease-in;
+     
+}
+.header_navigation-link-item li {
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+  
+}
+
+
 .header__logo{
     padding-left: 10%;
 }
