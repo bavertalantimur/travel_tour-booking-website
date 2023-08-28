@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Website</title>
     
-    <link rel="stylesheet" href="css/style.css">
-   
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<<<<<<< Updated upstream
     <!--
         1- header position absolute olacak
         2- z-index'i main'den büyük olacak ki üstüne gelsin
@@ -24,6 +24,12 @@
     -->
   <!--Header-->
   <section id="header"> <!--Bunu header yap-->
+=======
+   
+    
+  <!--Header-Start-->
+  <section id="header"> 
+>>>>>>> Stashed changes
     <div class="header">
         <div class="header__logo">
             <h3 class="header__logo-text">Travel</h3>
@@ -31,10 +37,19 @@
         </div>
         <div class="navbar">
             <ul class="header__navigation">
-                <li class="header__navigation-item"> <a  class="header__navigation link" href="">Home</a> </li>
-                <li class="header__navigation-item"> <a  class="header__navigation link" href="">About</a> </li>
-                <li class="header__navigation-item"> <a  class="header__navigation link" href="">Services</a> </li>
-                <li class="header__navigation-item"> <a  class="header__navigation link" href="">Upcomming Packages</a> </li>
+                <li class="header__navigation-item"> <a  class="header__navigation-link" href="">Home</a>
+                   
+                 </li>
+                <li class="header__navigation-item"> <a  class="header__navigation-link" href="">About</a> </li>
+                <li class="header__navigation-item"> <a  class="header__navigation-link" href="">Services</a>
+                    <ul class="header_navigation-link-item">
+                        <li><a href="#">   Honeyman Packages </a></li>
+                        <li><a href="#">  Tours packages</a></li>
+                        <li> <a href="#">  Musical Events</a></li>
+                        <li> <a href="#">   Build Package</a></li>
+                    </ul>
+                 </li>
+                <li class="header__navigation-item"> <a  class="header__navigation-link" href="">Upcomming Packages</a> </li>
             </ul>
         </div>
         <div class="header__btn">
@@ -43,8 +58,9 @@
         
     </div>
   </section>
-  <!--header end-->
+  <!--Header-End-->
 
+<<<<<<< Updated upstream
   <!--Tamam knka header ve main arasında bir ilişki kalmadı, sectionlar birbirinden bağımsız ilerlesin :))
 tamadmrııı kolay gelsin bb-->
   <section id="main"  >
@@ -53,8 +69,100 @@ tamadmrııı kolay gelsin bb-->
         <div class="container">
             
         </div>
+=======
+<!--Main-Start -->
+  <section id="main"  >
+    <div class="main">
+        <div class="main_title">
+            <img class="title_logo" src="img/title_logo.svg">
+            <h2 class="main_title_item">No matter where <br> you're going to ,we'll<br> take you there</h2>
+        </div>
+        <div class="main_menu">
+            <div class="main_menu_container">
+                <a class="main_menu_item" href="">Where to?</a>
+                
+            </div>
+           
+            <div class="main_menu_container">
+                <a  class="main_menu_item" href="">Travel Type</a>
+                <img class="main_menu_icon" src="img/Vector.svg">
+            </div>
+            <div class="main_menu_container">
+                <a class="main_menu_item" href="">Duration </a>
+                <img class="main_menu_icon" src="img/Vector.svg">
+            </div>
+            <div class="main_menu_container">
+                <a class="main_menu_btn" href="">Submit </a>
+            </div>
+
+        </div>
+
+        <div class="main_person">
+            <div class="main_person-card">
+                <div class="main_person-card-item">
+                    <img src="img/Ellipse 31.svg">
+                </div>
+                <div class="main_person-card-item">
+                    <img src="img/Ellipse 32.svg">
+                </div>
+                <div class="main_person-card-item">
+                    <img src="img/Ellipse 33.svg">
+                </div>
+                <div class="main_person-card-item">
+                    <img src="img/Ellipse 34.svg">
+                </div>
+                <div class="main_person-card-item">
+                    <img src="img/Ellipse 35.svg">
+                </div>
+                <div class="main_person-card-item">
+                    <img src="img/Ellipse 36.svg">
+                </div>
+                <div class="main_person-card-item">
+                    <img class="person_card_img-2" src="img/Ellipse 37.svg">
+                </div>
+            </div>
+            
+            <div class="main_person-card-text">
+                <span class="person_card_text_item">2,500 people booked Tommorowland Event in last 24 hours</span>
+            </div>
+        </div>
+        
+        
+        
+>>>>>>> Stashed changes
+    </div>
+    <div class="scrol">
+        <span class="scrol-item">Scroll</span>
+    </div>
+   
+  </section>
+<<<<<<< Updated upstream
+=======
+<!---Main-End--->
+
+
+<!-- References-start --> 
+  <section id="references">
+    <div class="references">
+        <div class="references_content">
+            <img  class="references_content-img" src="img/fly-emirates.svg">
+        </div>
+        <div class="references_content">
+            <img  class="references_content-img" src="img/trivago.svg">
+        </div>
+        <div class="references_content">
+            <img  class="references_content-img" src="img/airbnb.svg">
+        </div>
+        <div class="references_content">
+            <img  class="references_content-img" src="img/turkish-airlines.svg">
+        </div>
+        <div class="references_content">
+            <img  class="references_content-img" src="img/swıss.svg">
+        </div>
     </div>
   </section>
+  <!--  References-end --> 
+>>>>>>> Stashed changes
  
  
 </body>
