@@ -12,7 +12,7 @@
 
 h3{
     color: var(--color-primary);
-text-align: center;
+
 font-family: 'Volkhov', serif;
 font-size: 31.622px;
 font-style: normal;
@@ -40,6 +40,15 @@ h4{
     font-size: 58.506px;
 
 }
+h5{
+    color: var(--color-background);
+
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
 p{
 color: var(--color-black);
 font-family: 'Poppins', sans-serif;
@@ -60,4 +69,14 @@ line-height: normal;
 span{
     color: var(--color-primary);
 }
+h6{
+    color:#1E1D4C;
+    
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
 
