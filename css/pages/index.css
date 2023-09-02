@@ -1,0 +1,395 @@
+/*services-start */
+.services_title {
+    text-align: center;
+    padding-top: 6%;
+}
+
+.services_title-item {
+    padding-bottom: 1rem;
+}
+
+.services_content {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 2% 10% 10% 12%;
+    gap: 10%;
+}
+
+.services_card:nth-of-type(2) {
+    padding: 0 2% 2% 2%;
+    border-radius: 36px;
+    background: var(--color-primary);
+    box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px rgba(0, 0, 0, 0.00), 0px 8.148148536682129px 6.518518447875977px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.51852035522461px 25.481481552124023px 0px rgba(0, 0, 0, 0.01), 0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+}
+
+.services_card:nth-of-type(2)::before {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    left: 30%;
+    bottom: 26%;
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-background);
+    border-radius: 36px;
+}
+
+.services_card-item {
+    position: relative;
+    z-index: 1;
+}
+
+.services_card-item::before {
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 46%;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px 5px 10px 5px;
+    background: #FFF1DA;
+    z-index: -1;
+}
+
+.services_card-img {
+    width: 60px;
+    height: 60px;
+}
+
+.services_card-title {
+    padding-top: 12%;
+    padding-bottom: 8%;
+}
+
+/*services-end */
+
+/*honeymoon_packages-start */
+.honeymoon_packages {
+    display: flex;
+    justify-content: space-between;
+    gap: 8%;
+    padding-top: 10%;
+}
+
+.honeymoon-packages-img {
+    padding-left: 15%;
+    position: relative;
+}
+
+.honeymoon-packages-img::before {
+    content: "Honeymoon Packages";
+    color: var(--color-black);
+    font-family: Poppins;
+    font-size: 51.192px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 67.908px;
+    transform: rotate(-90deg);
+    opacity: 0.1;
+    position: absolute;
+    overflow: hidden;
+    left: -12%;
+    bottom: 36%;
+}
+
+.honeymoon-packages-img-item:nth-of-type(1) {
+    border-radius: 45% 45% 0 0;
+}
+
+.honeymoon-packages-img-item:nth-of-type(2) {
+    position: absolute;
+    left: 12%;
+    top: 0;
+}
+
+.honeymoon-packages-img-item:nth-of-type(3) {
+    position: absolute;
+    left: -2%;
+    top: 35%;
+}
+
+.honeymoon-packages-img-item:nth-of-type(4) {
+    position: absolute;
+    left: 40%;
+    top: -10%;
+}
+
+.honeymoon-packages-content {
+    padding-top: 12%;
+    padding-right: 2%;
+}
+
+.honeymoon-packages-text {
+    padding: 2% 16% 4% 0%;
+}
+
+.honeymoon-packages-btn {
+    display: inline-block;
+    width: 11.2vw;
+    height: 8vh;
+    padding: 14px 36.566px 9.403px 4px;
+    align-items: center;
+    border-radius: 10px;
+    background: var(--color-background);
+    box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
+}
+
+/*honeymoon_packages-end */
+
+/*resort_bookings-start */
+.resort_bookings-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 10% 28% 0 10%;
+    align-items: center;
+}
+
+.resort_bookings-main-title {
+    padding-top: 2%;
+}
+
+.resort_bookings-feature {
+    display: flex;
+    padding-top: 6%;
+}
+
+.resort_bookings-feature-content {
+    padding-left: 4%;
+    padding-top: 2%;
+}
+
+
+.resort-bookings-card {
+    width: 32%;
+    height: 60%;
+    border-radius: 26px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px rgba(0, 0, 0, 0.00), 0px 8.148148536682129px 6.518518447875977px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.51852035522461px 25.481481552124023px 0px rgba(0, 0, 0, 0.01), 0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+    padding: 2%;
+    position: relative;
+    z-index: 99;
+}
+
+.resort-bookings-card-title,
+.resort-bookings-card-text {
+    padding-top: 14px;
+}
+
+.resort-bookings-card-icon {
+    display: flex;
+    justify-content: flex-start;
+    gap: 8%;
+    padding-top: 14px;
+}
+
+.resort-bookings-card-img {
+
+    background: #F5F5F5;
+    padding: 2%;
+    border-radius: 50%;
+}
+
+.resort-bookings-card-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+}
+
+.resort-bookings-card-content {
+    display: flex;
+    gap: 2%;
+    width: 100%;
+}
+
+.resort_bookings-extra-card {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8%;
+    padding: 4% 6% 1.4% 1.2%;
+    border-radius: 18px;
+    background: var(--color-primary);
+    position: absolute;
+    right: -40%;
+    bottom: 11.8%;
+}
+
+.resort_bookings-extra-card-item {
+    padding-bottom: 20%;
+}
+
+.resort_bookings-extra-card-item-img {
+    border-radius: 50%;
+
+}
+
+.resort_bookings-extra-card-title {
+    padding-bottom: 6px;
+}
+
+.cresort_bookings-extra-card-text-item span {
+    color: var(--color-background);
+}
+
+.resort_bookings-img {
+    position: absolute;
+    top: 10%;
+    right: 0%
+}
+
+/*resort_bookings-end */
+
+/*banner_holiday-start */
+.banner_holiday {
+    background: url(../../img/rectancle-19294.svg) center no-repeat;
+    display: flex;
+    justify-content: center;
+    padding: 20% 0 20% 0;
+    width: 100%;
+    height: 100%;
+}
+
+.banner_holiday-title {
+    padding-right: 30%;
+    position: relative;
+}
+
+.banner_holiday-title::after {
+    content: "";
+    background: url(../../img/line1.svg) no-repeat;
+    position: absolute;
+    top: 95%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+}
+
+/*banner_holiday-end */
+
+/*promotion-start*/
+#promotion {
+    display: flex;
+    flex-direction: column;
+    padding-left: 8%;
+    padding-bottom: 10%;
+}
+
+.promotion p,
+h4 {
+    padding-bottom: 2%;
+}
+.promotion_btn{
+    display: inline-block;
+    width: 11.2vw;
+    height: 8vh;
+    padding: 14px 36.566px 9.403px 4px;
+    align-items: center;
+    border-radius: 10px;
+    background: var(--color-background);
+    box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
+}
+
+.promotion_img-gallery {
+    position: relative;
+    padding-top: 6%;
+    display: flex;
+    gap: 2%;
+}
+
+.promotion_img {
+    position: relative;
+    border-radius: 10px;
+}
+
+.promotion_img-text {
+    padding-right: 4%;
+    padding-left: 4%;
+    color: var(--color-primary);
+    position: absolute;
+    top: 4%;
+    right: 4%;
+    border-radius: 46px;
+    background: linear-gradient(100deg, #FF7255 8.93%, #BA4E38 100%);
+}
+
+
+.promotion_main-img {
+    position: absolute;
+    right: 12%;
+    bottom: -10%;
+    z-index: -1;
+}
+
+.promotion_main-img::after {
+    content: "Breath Taking  Viewes";
+    color: var(--color-black);
+    font-family: Poppins;
+    font-size: 51.192px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 67.908px;
+    transform: rotate(-90deg);
+    opacity: 0.1;
+    position: absolute;
+    overflow: hidden;
+    right: -73%;
+    bottom: 40%;
+}
+
+.promotion_main-img-item {
+    width: 400px;
+    object-fit: cover;
+    border-radius: 40% 40% 0 0;
+}
+
+/*promotion-end*/
+
+/*banner_promotion-start*/
+#banner_promotion{
+    display: flex;
+}
+.banner_promotion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    width:100%;
+  
+}
+.banner_promotion:nth-of-type(1){ 
+    background: url(../../img/image3.jpeg) no-repeat;
+    background-position: center;
+    background-size: contain;  
+}
+.banner_promotion:nth-of-type(2){
+    background: url(../../img/image4.jpeg) no-repeat;
+    background-position: center;
+    background-size: contain; 
+}
+.banner_promotion-title{
+  color: white;
+  font-weight: 900;
+letter-spacing: 1.8px;
+text-transform: uppercase;
+}
+.banner_promotion-btn{
+    display: flex;
+    width: 176.561px;
+    height: 56.416px;
+    padding: 0px 36.566px 9.403px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 10.447px;
+    border-radius: 10px;
+border: 1px solid #FFF;
+}
+/*banner_promotion-end*/
