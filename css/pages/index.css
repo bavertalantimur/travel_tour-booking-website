@@ -127,9 +127,10 @@
 
 .honeymoon-packages-btn {
     display: inline-block;
+    text-align: center;
     width: 11.2vw;
     height: 8vh;
-    padding: 14px 36.566px 9.403px 4px;
+    padding-top: 20px ;
     align-items: center;
     border-radius: 10px;
     background: var(--color-background);
@@ -279,22 +280,25 @@
     display: flex;
     flex-direction: column;
     padding-left: 8%;
-    padding-bottom: 10%;
+    padding-bottom: 6%;
 }
 
 .promotion p,
 h4 {
     padding-bottom: 2%;
 }
-.promotion_btn{
+
+.promotion_btn {
     display: inline-block;
+    text-align: center;
     width: 11.2vw;
     height: 8vh;
-    padding: 14px 36.566px 9.403px 4px;
+    padding: 20px ;
     align-items: center;
     border-radius: 10px;
     background: var(--color-background);
     box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
+
 }
 
 .promotion_img-gallery {
@@ -353,43 +357,233 @@ h4 {
 /*promotion-end*/
 
 /*banner_promotion-start*/
-#banner_promotion{
+#banner_promotion {
     display: flex;
 }
-.banner_promotion{
+
+.banner_promotion {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 10%;
-    width:100%;
-  
+    width: 100%;
+
 }
-.banner_promotion:nth-of-type(1){ 
+
+.banner_promotion:nth-of-type(1) {
     background: url(../../img/image3.jpeg) no-repeat;
     background-position: center;
-    background-size: contain;  
+    background-size: contain;
 }
-.banner_promotion:nth-of-type(2){
+
+.banner_promotion:nth-of-type(2) {
     background: url(../../img/image4.jpeg) no-repeat;
     background-position: center;
-    background-size: contain; 
+    background-size: contain;
 }
-.banner_promotion-title{
-  color: white;
-  font-weight: 900;
-letter-spacing: 1.8px;
-text-transform: uppercase;
+
+.banner_promotion-title {
+    color: white;
+    font-weight: 900;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
 }
-.banner_promotion-btn{
+
+.banner_promotion-main-title {
+    padding-bottom: 8%;
+    position: relative;
+}
+
+.banner_promotion:nth-of-type(1) .banner_promotion-main-title::after {
+    content: "";
+    background: url(../../img/line-3.svg) no-repeat;
+    position: absolute;
+    top: 60%;
+    right: -10%;
+    width: 50%;
+    height: 50%;
+}
+
+.banner_promotion:nth-of-type(2) .banner_promotion-main-title::after {
+    content: "";
+    background: url(../../img/line-8.svg) no-repeat;
+    position: absolute;
+    top: 60%;
+    right: -40%;
+    width: 80%;
+    height: 50%;
+}
+
+.banner_promotion-btn {
     display: flex;
-    width: 176.561px;
-    height: 56.416px;
-    padding: 0px 36.566px 9.403px 0px;
+    padding: 4%;
     justify-content: center;
     align-items: center;
-    gap: 10.447px;
+    
     border-radius: 10px;
-border: 1px solid #FFF;
+    border: 1px solid #FFF;
 }
+
 /*banner_promotion-end*/
+/*trending_tour-start*/
+#trending_tour{
+    padding-top: 4%;
+    padding-bottom: 10%;
+}
+.trending_tour-title {
+    text-align: center;
+}
+
+.trending_tour-content {
+    display: flex;
+    justify-content: center;
+    gap: 3.6%;
+}
+
+.trending_tour-card-img {
+    position: relative;
+}
+
+.trending_tour-card-country-img {
+    position: absolute;
+    bottom: -24%;
+    left: 4%;
+}
+
+.trending_tour-card-detail {
+    position: relative;
+    padding-top: 10%;
+}
+
+.trending_tour-card-detail-text {
+    color: #7D7D7D;
+}
+
+.trending_tour-card-detail-text:nth-of-type(1) {
+    display: inline;
+    padding-left: 8%;
+}
+
+.trending_tour-card-detail-text:nth-of-type(1):before {
+    content: "";
+    background: url(../../img/uil_calender.svg) no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 64%;
+}
+
+.trending_tour-card-detail-text:nth-of-type(2) {
+    display: inline;
+    padding-left: 14%;
+}
+
+.trending_tour-card-detail-text:nth-of-type(2)::before {
+    content: "";
+    background: url(../../img/vector-2.svg) no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 30%;
+    top: 64%;
+}
+
+.trending_tour-card-title {
+    position: relative;
+    padding-top: 4%;
+}
+
+.trending_tour-card-main-title {
+    color: #2F2F2F;
+    font-family: Poppins;
+    font-size: 29.033px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.trending_tour-card-main-title::after {
+    content: "";
+    background: url(../../img/bi_star-fill.svg);
+    background-repeat: repeat-x;
+    width: 20.4%;
+    height: 50%;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+
+}
+
+.trending_tour-card-location {
+    color: #7D7D7D;
+    padding-left: 8%;
+}
+
+.trending_tour-card-location::before {
+    content: "";
+    background: url(../../img/ep_location.svg) no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.trending_tour-card-text {
+    padding-top: 3%;
+    overflow: hidden;
+}
+
+.trending_tour-card-price {
+    padding-right: 2%;
+}
+
+.trending_tour-card-price:nth-of-type(1) {
+    color: #DF6951;
+    font-family: Poppins;
+    font-size: 29.033px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.trending_tour-card-price:nth-of-type(2) {
+    padding-left: 2%;
+    color: #7D7D7D;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    text-decoration: line-through;
+}
+
+.trending_tour-card-text-item {
+
+    color: var(--black, #000);
+    font-family: Poppins;
+    font-size: 12.224px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.449px;
+    /* 200% */
+    letter-spacing: 0.611px;
+    padding-bottom: 10%;
+}
+
+.trending_tour-card-btn {
+    border-radius: 7.64px;
+    background: #DF6951;
+    box-shadow: 0px 15.28047px 26.74081px 0px rgba(223, 105, 81, 0.15);
+    display: flex;
+    width: 134.897px;
+    height: 43.103px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+/*trending_tour-end*/
