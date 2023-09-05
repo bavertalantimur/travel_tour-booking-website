@@ -3,11 +3,11 @@
 @import url("./base/base.css");
 
 @import url("./common/footer.css");
-@import url("./common/header.css");
 
 
 @import url("./pages/landscapes.css");
-@import url("./pages/about_us.css");
 @import url("./pages/travel-with-us.css");
+@import url("./common/header.css");
 @import url("./pages/main.css");
 @import url("./pages/index.css");
+@import url("./pages/about_us.css");
