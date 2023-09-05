@@ -1,0 +1,111 @@
+.footer {
+    padding-top: 6%;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4%;
+    gap: 8%;
+}
+
+.footer_logo-text {
+    color: #181E4B;
+}
+
+.footer_text {
+    color: #757095;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.footer_social-menu {
+    padding-top: 14%;
+    display: flex;
+    gap: 8%;
+}
+
+.footer_title {
+    color: #181433;
+    font-family: Manrope;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px
+}
+
+.footer_menu {
+    padding-top: 10%;
+}
+
+.footer_menu-item {
+    padding-bottom: 14%;
+}
+
+.footer-menu_link {
+    color: #181433;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.footer_newsletter {
+    padding-top: 4%;
+    position: relative;
+}
+
+.footer_newsletter-input {
+    width: 389px;
+    height: 52px;
+    border: none;
+    background: #EEF;
+}
+
+.footer_newsletter-input::placeholder {
+    padding-left: 4%;
+}
+
+.footer_newsletter-button {
+    width: 149px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background: #DF6951;
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 12%;
+}
+
+.footer_newsletter-input-text {
+    padding-top: 4%;
+}
+
+.footer_copyright {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 3%;
+}
+
+.footer_copyright-horizantal {
+    color: #E5E5EA;
+    width: 74%;
+}
+
+.footer_copyright-text {
+    padding-top: 3%;
+    color: #181433;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px
+}
