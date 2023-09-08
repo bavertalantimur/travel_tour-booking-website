@@ -16,12 +16,15 @@
     <!--Header-->
     <!--Header-Start-->
     <section id="header">
-        <div class="header">
+        <div class="header animation">
             <div class="header__logo">
                 <h3 class="header__logo-text">Travel</h3>
                 <img src="img/logo.svg">
             </div>
             <div class="navbar">
+                <nav class="navbar_content mobile-menu">
+
+                
                 <ul class="header__navigation">
                     <li class="header__navigation-item"> <a class="header__navigation-link" href="">Home</a>
                     </li>
@@ -35,35 +38,56 @@
                         </ul>
                     </li>
                     <li class="header__navigation-item"> <a class="header__navigation-link"
-                            href="">UpcommingPackages</a> </li>
+                            href="">Upcomming Packages</a> </li>
                 </ul>
+            </nav>
             </div>
             <div class="header__btn">
                 <a href="">Get in Touch </a>
             </div>
+            <img class="menu_hamburger" src="img/menu-btn.png">
         </div>
     </section>
     <!--Header-End-->
     <!--Main-Start -->
     <section id="main">
-        <div class="main">
+        <div class="main animation">
             <div class="main_title">
                 <img class="title_logo" src="img/title_logo.svg">
                 <h2 class="main_title_item">No matter where <br> you're going to ,we'll<br> take you there</h2>
             </div>
             <div class="main_menu">
                 <div class="main_menu_container">
-                    <a class="main_menu_item" href="">Where to?</a>
+                    <select name="travel_type" id="travel_type">
+                        <option selected disabled>Where to?</option>
+                        <option value="item-1">Beach Vacation</option>
+                        <option value="item-1">Safari Adventure</option>
+                        <option value="item-1">Adventure Travel </option>
+                        <option value="item-1">Mountain Retreat</option>
+
+                    </select>
                 </div>
                 <div class="main_menu_container">
-                    <a class="main_menu_item" href="">Travel Type</a>
-                    <img class="main_menu_icon" src="img/Vector.svg">
+                    <select name="travel_type" id="travel_type">
+                        <option selected disabled>Travel Type</option>
+                        <option value="item-1">Beach Vacation</option>
+                        <option value="item-1">Safari Adventure</option>
+                        <option value="item-1">Adventure Travel </option>
+                        <option value="item-1">Mountain Retreat</option>
+
+                    </select>
                 </div>
                 <div class="main_menu_container">
-                    <a class="main_menu_item" href="">Duration </a>
-                    <img class="main_menu_icon" src="img/Vector.svg">
+                    <select name="travel_type" id="travel_type">
+                        <option selected disabled>Duration</option>
+                        <option value="item-1">Beach Vacation</option>
+                        <option value="item-1">Safari Adventure</option>
+                        <option value="item-1">Adventure Travel </option>
+                        <option value="item-1">Mountain Retreat</option>
+
+                    </select>
                 </div>
-                <div class="main_menu_container">
+                <div class="main_menu_container-btn">
                     <a class="main_menu_btn" href="">Submit </a>
                 </div>
             </div>
@@ -103,7 +127,7 @@
     <!---Main-End--->
     <!--References-Start -->
     <section id="references">
-        <div class="references">
+        <div class="references animation">
             <div class="references_content">
                 <img class="references_content-img" src="img/fly-emirates.svg">
             </div>
@@ -482,5 +506,34 @@
     </footer>
     <!--Footer-End-->
 
+    <script>
+
+        document.addEventListener("click",function($e){
+            if($e.target.id=='travel_type'){
+                if (this.value !== "") {
+                    $e.target.classList.add('selected');
+                } else {
+                    $e.target.classList.remove('selected');
+                }
+            }
+        })
+
+    </script>
+    <script type="text/javascript" src="//www.unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal().reveal('.animation',{
+            delay:300
+        });
+    </script>
+
+<script>
+    const menuHamburger = document.querySelector(".menu_hamburger")
+    const navLinks = document.querySelector(".navbar_content")
+
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+    })
+</script>
 
 </body>
+</html>

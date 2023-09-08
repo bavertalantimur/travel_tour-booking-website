@@ -23,16 +23,16 @@
     border-radius: 5.224px;
     background: rgba(243, 243, 243, 0.60);
     backdrop-filter: blur(17.760618209838867px);
-    width: 844px;
+    width: 900px;
     height: 102px;
     justify-content: center;
     align-items: center;
-    gap: 12%;
+    gap: 4%;
 
 }
 .main_menu::before{
     position: absolute;
-    left: 20%;
+    left: 23%;
     content: "";
     display: block;
     width: 3px;
@@ -44,7 +44,7 @@
 
 .main_menu::after{
     position: absolute;
-    right: 52%;
+    right: 50%;
     content: "";
     display: block;
     width: 3px;
@@ -135,3 +135,45 @@ flex-shrink: 0;
 /*References_Section-End*/
 
 
+
+select{
+    -webkit-appearance: none; /* Remove default browser arrow icon in some browsers */
+  -moz-appearance: none;
+  appearance: none;
+    border: none;
+    background:transparent;
+    background-image: url(../../img/Vector.svg); 
+    background-position: 120px 8px;  
+    outline: none;
+    background-repeat: no-repeat;
+    color: var(--color-primary);
+    font-family: "Circular";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+   padding: 0 30px 0 15px;
+   position: relative;
+    
+}
+#travel_type.selected{
+    background-image: none !important;
+}
+select option{
+
+    color: var(--color-black);
+    font-family: "Circular";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+}
+
+option:nth-of-type(1){
+    display: none;
+}
+
+
+#travel_type option:checked + option {
+    background: none;
+}

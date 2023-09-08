@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 @import url("./variables.css");
 @font-face {
     font-family: 'Circular';
@@ -57,6 +57,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 26px; 
 }
+
 a{ 
     text-decoration: none;
     color: var(--color-primary);
