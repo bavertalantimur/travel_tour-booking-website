@@ -239,7 +239,7 @@ option:nth-of-type(1){
 
 @media (max-width:768px) {
     #main{
-        width: 180vw;
+        width: 250vw;
     }
     .main_menu{
         width: 463px;
