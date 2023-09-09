@@ -177,3 +177,98 @@ option:nth-of-type(1){
 #travel_type option:checked + option {
     background: none;
 }
+@media (max-width:1200px) {
+    .main{
+        padding-top:18%;
+    }
+    .main_menu{
+        width: 718px;
+        height: 90px;
+        gap: 2%;
+    }
+    select{
+        font-size: 15px;
+        background-position: 100px 3px;
+    }
+    .main_menu_btn{
+        font-size: 15px;
+        padding: 15px 40px 11px 36px;
+    }
+    h2{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:992px) {
+    #main{
+        background-size:cover;
+        background-position: center;
+        
+    }
+    .main{
+        padding-top:34%;
+    }
+    .main_menu{
+        width: 610px;
+        
+        gap: 2%;
+    }
+    select{
+        font-size: 12px;
+        background-position: 90px 1px;
+    }
+    .main_menu_btn{
+        font-size: 15px;
+        padding: 15px 40px 11px 36px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    .scrol {
+        width: 100px;
+        height: 48px;
+       outline-offset: 60px;
+        left: 14%;
+        bottom: 0;
+        border-radius: 100px 100px 0 0;
+       
+    }
+   
+}
+
+@media (max-width:768px) {
+    .main_menu{
+        width: 463px;
+        
+        gap: 0%;
+    }
+    select{
+        font-size: 12px;
+        background-position: 68px 1px;
+        padding:0 24px 0 1px;
+    }
+    .main_menu_btn{
+        font-size: 12px;
+        padding: 13px 17px 12px 19px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    .scrol {
+        width: 100px;
+        height: 48px;
+       outline-offset: 60px;
+        left: 14%;
+        bottom: 0;
+        border-radius: 100px 100px 0 0;
+       
+    }
+    .person_card_text_item{
+        font-size: 12px;
+    }
+}
+
+@media (max-width:576px) {
+
+
+}
